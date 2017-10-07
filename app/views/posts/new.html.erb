@@ -1,1 +1,5 @@
-<%= render "form" %>
+<%= form_for @post do |f| %>
+<% binding.pry %>
+  <%= f.text_field :category_name %>
+  <%= f.text_field :content %>
+<% end %>

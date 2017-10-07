@@ -25,7 +25,8 @@ class PostsController < ApplicationController
   # POST /posts
   # POST /posts.json
 	def create
- Post.create(post_params)
+    binding.pry
+  Post.create(post_params)
   	end
  
   # PATCH/PUT /posts/1
