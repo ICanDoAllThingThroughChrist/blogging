@@ -1,0 +1,5 @@
+<h1><%= @catalog.name %></h1>
+ 
+<h3>Catalog: <%= link_to @catalog.post.content, catalog_path(@catalog.post) if @catalog.post %></h3>
+ 
+<p><%= @catalog.name %></p>
